@@ -1,0 +1,51 @@
+{
+  "id": 1,
+  "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+  "title": "Alan Turing",
+  "summary": "Alan Mathison Turing OBE FRS was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.",
+  "key_entities": {
+    "people": ["Alan Turing", "Alonzo Church", "Joan Clarke"],
+    "organizations": ["University of Cambridge", "Bletchley Park", "Princeton University"],
+    "locations": ["United Kingdom", "United States", "London"]
+  },
+  "sections": ["Early life and education", "Career", "World War II", "Early computers", "Mathematical biology", "Death", "Legacy"],
+  "quiz": [
+    {
+      "question": "Where did Alan Turing study for his undergraduate degree?",
+      "options": [
+        "Harvard University",
+        "Cambridge University",
+        "Oxford University",
+        "Princeton University"
+      ],
+      "answer": "Cambridge University",
+      "difficulty": "easy",
+      "explanation": "Alan Turing studied at King's College, Cambridge University where he was awarded first-class honours in mathematics."
+    },
+    {
+      "question": "What was Alan Turing's main contribution during World War II?",
+      "options": [
+        "Atomic research",
+        "Breaking the Enigma code",
+        "Inventing radar",
+        "Developing jet engines"
+      ],
+      "answer": "Breaking the Enigma code",
+      "difficulty": "medium",
+      "explanation": "Turing worked at Bletchley Park and played a crucial role in breaking the German Enigma code, which significantly helped the Allied war effort."
+    },
+    {
+      "question": "What theoretical machine did Alan Turing propose that became foundational to computer science?",
+      "options": [
+        "Analytical Engine",
+        "Difference Engine",
+        "Turing Machine",
+        "ENIAC"
+      ],
+      "answer": "Turing Machine",
+      "difficulty": "hard",
+      "explanation": "Turing proposed the concept of a Turing Machine, which is a mathematical model of computation that defines an abstract machine manipulating symbols on a strip of tape."
+    }
+  ],
+  "related_topics": ["Cryptography", "Enigma machine", "Computer science history", "Artificial intelligence"]
+}

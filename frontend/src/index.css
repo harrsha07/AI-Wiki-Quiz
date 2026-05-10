@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================
+   GLOBAL THEME STYLES
+========================================= */
+
+/* Smooth global theme transition */
+html, body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+  scroll-behavior: smooth;
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Theme classes for bright mode */
+.theme-bright {
+  background: linear-gradient(135deg, #f0f9ff 0%, #fdf2f8 50%, #f0fdfa 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Theme classes for darkmagic mode */
+.theme-darkmagic {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* =========================================
+   ANIMATIONS
+========================================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Reusable animation classes */
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bounce {
+  animation: bounce 1.2s ease-in-out infinite;
+}
+
+/* =========================================
+   TRANSITIONS
+========================================= */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* =========================================
+   BUTTON EFFECTS
+========================================= */
+.btn-hover-effect {
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional ripple glow */
+.btn-hover-effect::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10.01%);
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.btn-hover-effect:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/* =========================================
+   GLASS EFFECTS
+========================================= */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+}
+
+.dark .glass-panel {
+  background: rgba(30, 41, 59, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* =========================================
+   SCROLLBAR STYLING
+========================================= */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 120, 0.5);
+}
+
+/* =========================================
+   UTILITIES
+========================================= */
+.text-gradient {
+  background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-move 6s ease infinite;
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.shadow-glow {
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+}
+
+.section-fade {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.section-fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.section-fade-enter-active {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}

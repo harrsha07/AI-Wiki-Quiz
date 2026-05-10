@@ -1,0 +1,65 @@
+{
+  "id": 3,
+  "url": "https://en.wikipedia.org/wiki/Machine_learning",
+  "title": "Machine Learning",
+  "summary": "Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.",
+  "key_entities": {
+    "people": ["Arthur Samuel", "Tom Mitchell", "Geoffrey Hinton"],
+    "organizations": ["Google AI", "Facebook AI Research", "Microsoft Research"],
+    "locations": ["Silicon Valley", "Canada", "United Kingdom"]
+  },
+  "sections": [
+    "Overview",
+    "Types of machine learning",
+    "History and relationships to other fields",
+    "Machine learning tasks",
+    "Applications",
+    "Ethics"
+  ],
+  "quiz": [
+    {
+      "question": "What is the primary focus of machine learning?",
+      "options": [
+        "Creating faster computer processors",
+        "Designing computer hardware",
+        "Developing algorithms that improve automatically through experience",
+        "Building robots that can think like humans"
+      ],
+      "answer": "Developing algorithms that improve automatically through experience",
+      "difficulty": "easy",
+      "explanation": "Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data."
+    },
+    {
+      "question": "Which of the following is NOT a major type of machine learning?",
+      "options": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Hardware learning"
+      ],
+      "answer": "Hardware learning",
+      "difficulty": "medium",
+      "explanation": "The major types of machine learning are supervised learning (where the algorithm learns from labeled training data), unsupervised learning (where the algorithm learns from unlabeled data), and reinforcement learning (where the algorithm learns through trial and error with rewards and penalties)."
+    },
+    {
+      "question": "What distinguishes deep learning from traditional machine learning approaches?",
+      "options": [
+        "Deep learning uses more training data",
+        "Deep learning algorithms are based on neural networks with multiple layers",
+        "Deep learning requires less computational power",
+        "Deep learning is only used for image recognition"
+      ],
+      "answer": "Deep learning algorithms are based on neural networks with multiple layers",
+      "difficulty": "hard",
+      "explanation": "Deep learning is a subset of machine learning based on artificial neural networks with multiple layers, allowing the system to learn hierarchical representations of data, which has proven particularly effective for complex tasks like image and speech recognition."
+    }
+  ],
+  "related_topics": [
+    "Deep Learning",
+    "Neural Networks",
+    "Data Science",
+    "Artificial Intelligence",
+    "Supervised Learning"
+  ],
+  "date_generated": "2023-06-15T11:45:00Z"
+}

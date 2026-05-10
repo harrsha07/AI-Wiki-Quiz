@@ -1,0 +1,65 @@
+{
+  "id": 2,
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "title": "Artificial Intelligence",
+  "summary": "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of \"intelligent agents\": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.",
+  "key_entities": {
+    "people": ["Alan Turing", "John McCarthy", "Marvin Minsky"],
+    "organizations": ["Dartmouth Conference", "MIT AI Laboratory", "Stanford AI Laboratory"],
+    "locations": ["United States", "United Kingdom"]
+  },
+  "sections": [
+    "Computer science",
+    "Machine learning",
+    "Natural language processing",
+    "Computer vision",
+    "Robotics",
+    "Search and optimization"
+  ],
+  "quiz": [
+    {
+      "question": "What is the primary goal of artificial intelligence research?",
+      "options": [
+        "To create machines that can perform human tasks",
+        "To study intelligent agents that perceive environments and take actions",
+        "To develop faster computer processors",
+        "To replace human workers with machines"
+      ],
+      "answer": "To study intelligent agents that perceive environments and take actions",
+      "difficulty": "easy",
+      "explanation": "According to leading AI textbooks, the field is defined as the study of \"intelligent agents\": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals."
+    },
+    {
+      "question": "Which of the following is NOT considered a core problem of AI?",
+      "options": [
+        "Reasoning and problem solving",
+        "Knowledge representation",
+        "Natural language processing",
+        "Computer hardware design"
+      ],
+      "answer": "Computer hardware design",
+      "difficulty": "medium",
+      "explanation": "While computer hardware is necessary for AI implementation, the core problems of AI focus on reasoning, knowledge representation, planning, learning, natural language processing, perception, and the ability to move and manipulate objects."
+    },
+    {
+      "question": "What major breakthrough in 2012 significantly accelerated AI development?",
+      "options": [
+        "The invention of the transistor",
+        "The development of the internet",
+        "The use of GPUs to accelerate neural networks",
+        "The creation of the first computer"
+      ],
+      "answer": "The use of GPUs to accelerate neural networks",
+      "difficulty": "hard",
+      "explanation": "Funding and interest in AI vastly increased after 2012 when graphics processing units (GPUs) started being used to accelerate neural networks, leading to significant improvements in deep learning performance."
+    }
+  ],
+  "related_topics": [
+    "Machine Learning",
+    "Deep Learning",
+    "Neural Networks",
+    "Natural Language Processing",
+    "Computer Vision"
+  ],
+  "date_generated": "2023-06-15T10:30:00Z"
+}
